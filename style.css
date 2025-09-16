@@ -4,45 +4,69 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+h2{
+    margin-bottom: 2rem;
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #1cb5e0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000046, #1cb5e0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000046, #1cb5e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1ce0b5;  
+    background: linear-gradient(to right, #4d0149, #00ffc8);
 }
 .container{
     background: #fff;
-    padding: 20px 20px;
+    padding: 2rem 2rem 3rem 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    text-align: center;
-    
- }
+    width: 450px;
+    background: linear-gradient(to right , #f12368 , #3484a3);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+
+}
   input{
     width: 100%;
-    padding: 5px 5px;
+    padding:  0.5rem 0.5rem 0.5rem 2rem;
     font-size: 17px;
     border-radius: 2rem; 
+    background-color: #271e2b;
+    color: #fff;
+    border: solid balck 0.1rem;
     
 }
+
 .select-container,img{
-    font-size:1.75rem;
-    max-height: 2rem;
+    font-size:2rem;
+    max-height: 3rem;
+    ;
+    
 
 }
 .select-container{
     display: flex;
+    justify-items: center;
     justify-content: center;
     align-items: center;
+    margin: 2rem  2rem 2rem 0rem  ;
+}
+
+select{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 2rem; 
+    background-color: #271e2b;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1rem ; 
 }
 .dropdown{
 display: flex;
 align-items: center;
 justify-content: space-between;
+justify-items: center;
+margin :2rem;
+
 }
 button{
     margin-top: 10px;
@@ -51,14 +75,15 @@ button{
     font-size: 17px;
     border-radius: 2rem;
     border: none;
-    background: #1cb5e0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000046, #1cb5e0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000046, #1cb5e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to right, #262666, #f143bd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     cursor: pointer;
 }
 button:hover{
-    background: #1cb5e0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1cb5e0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1cb5e0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 1);
+}
+.msg{
+    margin:0rem 0rem 1rem 0rem;
+    color: white;
+    font-size: large;
 }

@@ -11,20 +11,14 @@
         <h2>Currency Convertor</h2>
         <p>Enter Amount</p>
         <input type="number" id="amount" placeholder="Amount">
-        <div class="dropdowm">
+        <div class="dropdown">
             <div class="from">
                 <p>
                     from
                 </p>
                 <div class="select-container">
                 <img src="https://flagsapi.com/US/shiny/64.png" alt="flag">
-                <select id="fromCurrency">
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                    <option value="GBP">GBP</option>
-                    <option value="INR">INR</option>
-                    <option value="AUD">AUD</option>
-                </select>
+                <select name="from" id="from-currency"></select>
                 </div>
             </div>
            
@@ -34,21 +28,15 @@
                 </p>
                 <div class="select-container">
                 <img src="https://flagsapi.com/IN/shiny/64.png" alt="flag">
-                <select id="fromCurrency">
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                    <option value="GBP">GBP</option>
-                    <option value="INR">INR</option>
-                    <option value="AUD">AUD</option>
-                </select>
+                <select name="to" id="to-currency"></select>
                 </div>
             </div>
         </div>
-        <div class="msg">1 USD= 80 INR</div>
+        <div class ="msg"></div>
         <button id="convertBtn">Convert</button>
     </div>
-    
+     <script src="codes.js"></script>
     <script src="app.js"></script>
-    <script src="codes.js"></script>
+   
 </body>
 </html>
