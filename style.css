@@ -10,17 +10,20 @@ h2{
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     min-height: 100vh;
     background: #1ce0b5;  
     background: linear-gradient(to right, #4d0149, #00ffc8);
 }
 .container{
     background: #fff;
+    margin-top: 3rem;
     padding: 2rem 2rem 3rem 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     width: 450px;
+    height: 450px ;
+    min-height: fit-content;
     background: linear-gradient(to right , #f12368 , #3484a3);
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
 
