@@ -31,7 +31,7 @@ Currency_Convertor/
 ## Setup & Usage
 1. Clone the repository:
 	 ```sh
-	 git clone https://github.com/<your-username>/Currency-convertor-.git
+	 git clone https://github.com/Rohit-Rana-01/Currency-convertor-.git
 	 ```
 2. Open the `Currency_Convertor` folder.
 3. Open `index.html` in your browser.
